@@ -1,0 +1,257 @@
+h1:first-letter {
+    color: navajowhite;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+body {
+    background-color: #FBFEFB;
+width:1300px;
+    margin: 0 auto;
+}
+
+
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 10px 110px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #FEFFFE;
+    color: #957186;
+   
+}
+
+.topnav a:hover {
+    background-color: #8D94BA;
+    color: black;
+}
+
+.search{
+    height: 40px;
+    background-color: #FEFFFE;
+}
+
+.main {
+    margin-top: 30px; 
+}
+
+
+ 
+.container {
+width:100%;
+margin-top: 100px;
+   height:350px;
+background-color: white;
+
+}
+.alison{
+width:440px;;
+height:350px;
+background-color:#EAFDCF;
+display:inline;
+float:left;
+}
+.firstimage {
+float:left;
+margin: 25px 10px 0 10px;
+}  
+
+.firstcontent {
+    color: black;
+    font-size: 20px;
+    font-family: cursive;  
+}
+    
+.whiskey{
+width:440px;
+height:350px;
+background-color:#CDDDDD;
+display:inline-block;
+margin:4 auto;
+   
+
+}
+.secondimage {
+margin: 25px 10px 0 10px;
+float:left;
+}
+
+.secondcontent {
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.lord{
+width:420px;
+height:350px;
+background-color:#EAFDCF;
+display:inline;
+float:right;
+}
+.thirdimage {
+margin: 25px 10px 0 10px;
+float:left;
+}
+.thirdcontent {
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+
+
+.potter{
+width:420px;
+height:350px;
+background-color:#CDDDDD;
+display:inline;
+float:right; 
+clear: both;
+
+}
+
+.fourthimage {
+margin: 25px 10px 0 10px;
+float: left;
+}
+
+.fourthcontent {
+    color: black;
+    font-size: 18px;
+    font-family: cursive;
+    
+    
+}
+
+.wind {
+width:400px;
+height:330px;
+background-color:#CDDDDD;
+display:inline;
+float:left; 
+
+
+  
+}
+
+.fifthimage{
+    margin:20px 10px 0 10px;
+    float:left;
+
+}
+
+.fifthcontent {
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+
+
+
+
+
+form {
+    border: 2px solid #f1f1f1;
+    padding: 0px;
+    margin:0px;
+}
+
+.top{
+    width:860px;
+    height:150px;
+    margin:0 auto;
+}
+
+.contain {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type="password"], input[type="text"] {
+    border: 1px solid #a1a3a3;
+    border-radius: 4px;
+    box-shadow: 0 1px #fff;
+    box-sizing: border-box;
+    color: #696969;
+    height: 39px;
+    margin: 15px 0 0 29px;
+    padding-left: 37px;
+    transition: box-shadow 0.3s;
+    width: 240px;
+}
+
+input[type="submit"] {
+    width:240px;
+    height:35px;
+    display:inline;
+    float:right;
+    font-family:Arial, "Helvetica", sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-align:center;
+    text-shadow:1px 1px 0px #37a69b;
+    padding-top:6px;
+    margin: 14px 0 0 29px;
+    position:relative;
+    cursor:pointer;
+    border: none;  
+    background-color: #37a69b;
+    background-image: linear-gradient(top,#3db0a6,#3111);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius:5px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+}
+
+
+.forgot {
+    color: #7f7f7f;
+    display: inline-block;
+    float: right;
+    font: 12px/1 sans-serif;
+    left: -19px;
+    position: relative;
+    text-decoration: none;
+    top: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+    
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.contain {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
